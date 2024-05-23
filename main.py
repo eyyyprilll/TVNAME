@@ -60,6 +60,18 @@ def TestTV():
     tv1.setchannel(30)
     tv1.setVolume(3)
 
+    #Set Values for tv2
+    tv2.turnOn()
+    tv2.setChannel(3)
+    tv2.setVolume(2)
+
+    # Print Values
+    print(f"tv1's channel is {tv1.getChannel()} and volume level is {tv1.getVolume()}")
+    print(f"tv2's channel is {tvw.getChannel()} and volume level is {tv2.getVolume()}")
+
+
+
+
 
 
 

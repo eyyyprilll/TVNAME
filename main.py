@@ -6,10 +6,12 @@
 # Set Values
 # Print Values
 
-#Define class as TV
+# Define class as TV
 class TV:
     # class variable
-    def __init__(self, channel=1, volumelevel=1 ):
+    def __init__(self, channel=1, volumeLevel=1):
         self.channel = channel
-        self.volumelevel = volume
+        self.volumeLevel = volumeLevel
+        self.on = False
+
 

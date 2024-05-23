@@ -13,3 +13,16 @@ class TV:
         self.channel = channel
         self.volumelevel = volume
 
+    def turnOn(self):
+        self.on = True
+
+    def turnOff(self):
+        self.on = False
+
+    def getChannel(self):
+        return self.channel
+
+    def setChannel(self, channel):
+        if 1 <= channel <= 120:
+            self.channel = channel
+

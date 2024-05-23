@@ -49,6 +49,17 @@ class TV:
         if self.volumelevel < 1:
             self.volumeLevel -= 1
 
+# TestTV Program
+def TestTV():
+    # Create two TV
+    tv1 = TV()
+    tv2 = TV()
+
+    #Set Values for tv1
+    tv1.turnOn()
+    tv1.setchannel(30)
+    tv1.setVolume(3)
+
 
 
 
